@@ -4,7 +4,7 @@ import time
     # make sure to replace the display_name with your own display name using `xrandr` command
 def set_night_light(enabled, display_name="eDP"): 
     # Adjust these values based on your preference
-    night_light_color = (1.00, 0.90, 0.75)  # RGB values for a warm color with reduced blue component
+    night_light_color = (1.00, 0.85, 0.70)  # RGB values for a warm color with reduced blue component
     transition_duration = 2  # seconds
 
     if enabled:
